@@ -20,4 +20,8 @@ To run the # Python 3 # scripts, install [Paho-MQTT](https://pypi.org/project/pa
 ```python
 pip install paho-mqtt
 ```
-
+* ### Arduino
+There is no Arduino, we use a ESP8266, you must install compiler NodeMCU libraries .
+You also have to collect the libraries used for the OLED display and Temperature sensor, Iǘe used a DHT11 Temp sensor.
+* Temperature Sensor Lib (or convert the value collected on a function)
+* Adafruit display lib
